@@ -166,6 +166,7 @@
 .star:hover{
     color: rgb(76, 87, 239);
 }
+
 .para{
     font-family: "Roboto", serif;
     font-weight: 550;
@@ -317,6 +318,13 @@ a:hover .score-1 {
     transform: scaleZ(1.1);
     transform: scale(0.9);
  }
+ @media (max-width:465px) {
+   .rohit-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+ }
  @media (min-width:638px) {
     
 .inner-container{
@@ -331,6 +339,11 @@ a:hover .score-1 {
     background-color: rgb(205, 196, 196);
     box-shadow: 10px 15px 31px rgb(42, 37, 37);
 }
+.rohit-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
 .cricketer-1{
     background-color: whitesmoke;
     flex-basis: 45%;
@@ -571,7 +584,7 @@ a:hover .score-1 {
     }
     .head-S:hover{
        color: blue;
-    }
+    /* }
     #image-same-7{
         width: 100%;
         border-radius: 7px;
@@ -601,7 +614,7 @@ a:hover .score-1 {
         width: 100%;
         border-radius: 7px;
         height: 105%; 
-    }
+    } */
      }
 
       
